@@ -109,3 +109,31 @@ button:hover{filter:brightness(.98)}
   h3{font-size:1.2rem}
   p{font-size:1rem}
 }
+/* --- Nav: match Google Sites --- */
+.site-header{background:#fff;border-bottom:1px solid #e0e0e0;position:static}
+.header-wrap{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.brand-title{font-weight:700;font-size:18px}
+.nav{display:flex;flex-wrap:wrap;gap:2px}
+.nav a{
+  display:inline-block;
+  padding:12px 10px;
+  color:#222;
+  text-decoration:none;
+  border-radius:6px;
+}
+.nav a:hover{background:#f5f5f5}
+.nav a.active{
+  position:relative;
+  font-weight:600;
+}
+.nav a.active::after{
+  content:"";
+  position:absolute;
+  left:10px; right:10px; bottom:6px;
+  height:2px; background:#222; border-radius:2px;
+}
+
+/* Mobile wrap */
+@media (max-width:780px){
+  .nav a{padding:10px 8px}
+}
