@@ -1,7 +1,6 @@
 baseURL = "https://www.abailey.ca/"
 title = "Aaron Bailey Counselling"
 languageCode = "en-ca"
-theme = "custom"
 paginate = 10
 enableRobotsTXT = true
 copyright = "© 2025 Aaron Bailey Counselling"
