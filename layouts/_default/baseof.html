@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <div class="brand">
+        <a href="/"><span class="brand-title">Aaron Bailey Counselling</span></a>
+        <span class="brand-sub">Brentwood Bay, BC</span>
+      </div>
+      <nav class="nav">
+        <a href="/counselling/">Counselling</a>
+        <a href="/rates-services/">Rates & Services</a>
+        <a href="/resources/">Resources</a>
+        <a href="/meet-the-counsellor/">Meet the Counsellor</a>
+        <a class="btn" href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>Contact:</strong>
+        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a> ·
+        <a href="tel:+17785575504">{{ .Site.Params.phone }}</a>
+      </div>
+      <div>© {{ now.Format "2006" }} Aaron Bailey Counselling · Brentwood Bay, BC</div>
+    </div>
+  </footer>
+  <script src="/js/site.js"></script>
+</body>
+</html>

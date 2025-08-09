@@ -1,0 +1,1 @@
+// minimal JS placeholder (Netlify forms doesn't need JS)
