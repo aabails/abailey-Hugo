@@ -10,13 +10,14 @@
         <a href="/"><span class="brand-title">Aaron Bailey Counselling</span></a>
         <span class="brand-sub">Brentwood Bay, BC</span>
       </div>
-      <nav class="nav">
-        <a href="/counselling/">Counselling</a>
-        <a href="/rates-services/">Rates & Services</a>
-        <a href="/resources/">Resources</a>
-        <a href="/meet-the-counsellor/">Meet the Counsellor</a>
-        <a class="btn" href="/contact/">Contact</a>
-      </nav>
+<nav class="nav">
+  <a href="/" class='{{ if eq .RelPermalink "/" }}active{{ end }}'>Home</a>
+  <a href="/counselling/" class='{{ if eq .RelPermalink "/counselling/" }}active{{ end }}'>Counselling</a>
+  <a href="/rates-services/" class='{{ if eq .RelPermalink "/rates-services/" }}active{{ end }}'>Rates &amp; Services</a>
+  <a href="/resources/" class='{{ if eq .RelPermalink "/resources/" }}active{{ end }}'>Resources</a>
+  <a href="/meet-the-counsellor/" class='{{ if eq .RelPermalink "/meet-the-counsellor/" }}active{{ end }}'>Meet the Counsellor</a>
+  <a href="/contact/" class='{{ if eq .RelPermalink "/contact/" }}active{{ end }}'>Contact</a>
+</nav>
     </div>
   </header>
   <main class="container">
