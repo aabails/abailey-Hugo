@@ -137,3 +137,12 @@ button:hover{filter:brightness(.98)}
 @media (max-width:780px){
   .nav a{padding:10px 8px}
 }
+
+/* --- Site-wide forest banner --- */
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 260px; /* adjust to match Google Sites height */
+  object-fit: cover;
+}
