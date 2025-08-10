@@ -24,7 +24,8 @@ description: "Registered Clinical Counsellor in Brentwood Bay offering youth and
     <p>Free 15 minute consultation. Office in Brentwood Bay, BC.</p>
     <p><a href="/contact/">Get in touch →</a></p>
   </div>
-</div>
----
+  ---
 
 <img src="/images/IMG_1102.jpeg" alt="Logo" style="max-width: 200px; display: block; margin: 30px auto;">
+</div>
+
