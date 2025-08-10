@@ -1,5 +1,5 @@
 ---
-title: "Contact | Free 15‑Minute Consultation | Brentwood Bay Counselling"
+title: "Contact | Free 15‑Minute Consultation"
 description: "Contact Aaron Bailey Counselling in Brentwood Bay for a free 15‑minute consultation. Office sessions, online, or phone."
 ---
 
