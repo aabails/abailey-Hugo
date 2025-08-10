@@ -16,7 +16,7 @@ description: "Contact Aaron Bailey Counselling in Brentwood Bay for a free 15‑
 
 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="card">
   <input type="hidden" name="form-name" value="contact">
-  <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
+  <p class="hidden"><label>Don’t fill this out: (Prevents spam) <input name="bot-field"></label></p>
   <label for="name">Name</label>
   <input id="name" name="name" required>
   <label for="email">Email</label>
@@ -24,5 +24,4 @@ description: "Contact Aaron Bailey Counselling in Brentwood Bay for a free 15‑
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="6" required></textarea>
   <button type="submit">Send</button>
-  <p class="small">Or email <a href="mailto:abaileycounselling@gmail.com">abaileycounselling@gmail.com</a>.</p>
 </form>
