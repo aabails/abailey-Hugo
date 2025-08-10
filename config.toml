@@ -1,4 +1,5 @@
-baseURL = "https://www.abailey.ca/"
+baseURL = "https://abaileycounselling.netlify.app/"
+trailingSlash = "always"
 title = "Aaron Bailey Counselling"
 languageCode = "en-ca"
 paginate = 10
