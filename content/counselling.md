@@ -1,7 +1,6 @@
 ---
 title: "Counselling"
-description: "Trauma-informed, solution-focused counselling for youth and adults in Greater Victoria. Person-centred, SFBT, Narrative, CBT/ERP, and Family Systems."
-slug: "counselling"
+description: "Trauma-informed, solution-focused counselling for youth and adults in Greater Victoria."
 draft: false
 ---
 
