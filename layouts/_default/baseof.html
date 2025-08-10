@@ -21,6 +21,12 @@
     </div>
     <div class="banner">
   <img src="/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg" alt="Forest scene banner">
+  <div class="banner-title">
+    <h1>
+      {{ with .Params.hero_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    </h1>
+    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+  </div>
 </div>
   </header>
   <main class="container">
