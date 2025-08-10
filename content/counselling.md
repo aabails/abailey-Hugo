@@ -1,6 +1,9 @@
 ---
-title: "Counselling Approach & Modalities | Brentwood Bay Counsellor"
-description: "Trauma‑informed, solution‑focused counselling for youth and adults in Greater Victoria. Person‑centred, SFBT, Narrative, CBT/ERP, and Family Systems."
+title: "Counselling"
+description: "Trauma-informed, solution-focused counselling for youth and adults in Greater Victoria. Person-centred, SFBT, Narrative, CBT/ERP, and Family Systems."
+slug: "counselling"
+url: "/counselling/"
+draft: false
 ---
 
 <p>I strive to make a client feel safe and comfortable by listening, honouring their story, and taking a strength-based, client-centered approach.</p>
