@@ -3,10 +3,19 @@
     <img src="/images/IMG_1102.jpeg" alt="{{ .Site.Title }} logo" class="brand__logo">
     <span class="brand__text">{{ .Site.Title }}</span>
   </a>
-  <button class="hamburger" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰</button>
-  <div class="backdrop" hidden></div>
-  <nav id="nav" class="nav" hidden aria-label="Main">
-    <button class="nav__close" aria-label="Close Menu">✕</button>
-    {{ range site.Menus.main }}<a href="{{ .URL }}" class="nav__link">{{ .Name }}</a>{{ end }}
+
+  <!-- Pure-CSS toggle -->
+  <input id="menu-toggle" type="checkbox" hidden>
+  <label for="menu-toggle" class="hamburger" aria-label="Menu" aria-controls="nav">☰</label>
+
+  <!-- Backdrop is a label so tapping it closes the drawer -->
+  <label for="menu-toggle" class="backdrop" aria-hidden="true"></label>
+
+  <nav id="nav" class="nav" aria-label="Main">
+    <!-- Close label toggles checkbox off -->
+    <label for="menu-toggle" class="nav__close" aria-label="Close Menu">✕</label>
+    {{ range site.Menus.main }}
+      <a href="{{ .URL }}" class="nav__link">{{ .Name }}</a>
+    {{ end }}
   </nav>
 </header>
