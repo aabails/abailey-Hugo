@@ -2,6 +2,8 @@
 title: "Rates & Services"
 description: "Fees, session formats, payment methods, insurance, and cancellation policy."
 ---
+<p><a class="button" href="/contact/">Book a Session</a></p>
+
 - **Individual Counselling — $150 @ 50 minutes**
 - **Sliding scale** fee for those who are facing financial hardship — please inquire.
 
