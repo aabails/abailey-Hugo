@@ -1,5 +1,5 @@
 ---
-title: "Bailey’s Counselling"
+title: "Aaron Bailey Counselling | Counsellor, Victoria, BC"
 description: "Counsellor | Victoria, BC — Registered Clinical Counsellor in Brentwood Bay, supporting youth & adults."
 ---
 ## Counsellor | Victoria, BC
