@@ -1,0 +1,48 @@
+<script>
+(function(){
+  var btn=document.querySelector('.hamburger'),
+      nav=document.getElementById('nav'),
+      closeBtn=nav?nav.querySelector('.nav__close'):null,
+      backdrop=document.querySelector('.backdrop'),
+      body=document.body,
+      lastFocus=null;
+
+  if(!btn||!nav||!backdrop) return;
+
+  function openMenu(){
+    lastFocus=document.activeElement;
+    btn.setAttribute('aria-expanded','true');
+    nav.hidden=false;
+    backdrop.hidden=false;
+    body.classList.add('no-scroll');
+    setTimeout(function(){
+      nav.classList.add('open');
+      backdrop.classList.add('open');
+    },0);
+    var firstLink=nav.querySelector('a'); if(firstLink) firstLink.focus();
+  }
+
+  function closeMenu(){
+    btn.setAttribute('aria-expanded','false');
+    nav.classList.remove('open');
+    backdrop.classList.remove('open');
+    body.classList.remove('no-scroll');
+    setTimeout(function(){ nav.hidden=true; backdrop.hidden=true; },220);
+    if(lastFocus) lastFocus.focus();
+  }
+
+  btn.addEventListener('click', function(){
+    var open=this.getAttribute('aria-expanded')==='true';
+    if(open) closeMenu(); else openMenu();
+  });
+
+  if(closeBtn) closeBtn.addEventListener('click', closeMenu);
+  backdrop.addEventListener('click', closeMenu);
+  nav.addEventListener('click', function(e){
+    if(e.target.closest('a')) closeMenu();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape' && btn.getAttribute('aria-expanded')==='true') closeMenu();
+  });
+})();
+</script>

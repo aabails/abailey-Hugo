@@ -1,32 +1,11 @@
 baseURL = "https://abaileycounselling.netlify.app/"
-trailingSlash = "always"
-title = "Aaron Bailey Counselling"
-languageCode = "en-ca"
-paginate = 10
+canonifyURLs = true
 enableRobotsTXT = true
-copyright = "© 2025 Aaron Bailey Counselling"
+title = "Bailey’s Counselling"
 
-[params]
-  description = "Registered Clinical Counsellor in Brentwood Bay, BC offering youth and adult counselling."
-  phone = "(778)-557-5504"
-  email = "abaileycounselling@gmail.com"
-  location = "Brentwood Bay, BC"
-  og_image = "/images/office.jpg"
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-[markup.goldmark.renderer]
-  unsafe = true
-
-[params.social]
-  instagram = ""
-  facebook = ""
-  linkedin = ""
-
-[services]
-  [services.googleAnalytics]
-    id = ""
-
-[permalinks]
-  page = "/:slug/"
+[menu]
+  [[menu.main]] name = "Counselling" url = "/counselling/" weight = 10
+  [[menu.main]] name = "Rates & Services" url = "/rates-services/" weight = 20
+  [[menu.main]] name = "Resources" url = "/resources/" weight = 30
+  [[menu.main]] name = "Meet the Counsellor" url = "/meet-the-counsellor/" weight = 40
+  [[menu.main]] name = "Contact" url = "/contact/" weight = 50

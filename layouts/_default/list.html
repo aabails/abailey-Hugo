@@ -1,13 +1,9 @@
 {{ define "main" }}
-  <section class="page">
-    <h1>{{ .Title }}</h1>
-    <div class="content">
-      {{ .Content }}
-    </div>
-    <ul class="list">
-      {{ range .Pages }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-  </section>
+  {{ if .Params.show_content_title }}
+    <h1 class="page-title">{{ .Title }}</h1>
+  {{ end }}
+  {{ .Content }}
+  {{ range .Pages }}
+    <article><a href="{{ .RelPermalink }}">{{ .Title }}</a></article>
+  {{ end }}
 {{ end }}

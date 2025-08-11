@@ -1,31 +1,13 @@
 ---
-title: "Counselling in Brentwood Bay, BC | Aaron Bailey Counselling"
-description: "Registered Clinical Counsellor in Brentwood Bay offering youth and adult counselling for anxiety, ADHD, OCD, grief, substance use, and life transitions."
+title: "Bailey’s Counselling"
+description: "Counsellor | Victoria, BC — Registered Clinical Counsellor in Brentwood Bay, supporting youth & adults."
 ---
+## Counsellor | Victoria, BC
 
-<div class="hero">
-<p>My trauma-informed, solution-focused therapy approach utilizes the client's story and strengths to determine solutions that may not have been realized yet. I believe the client is an expert of their life and has the knowledge of what works best for them.</p>
-<p>I am a Registered Clinical Counsellor through BCACC and trained in supporting the mental health of all individuals. I offer counselling in Brentwood Bay, a community of Greater Victoria, BC.</p>
-</div>
+Are you looking to make a change in your life or connect a young person with a youth counsellor in Victoria, BC?
 
-<div class="grid">
-  <div class="card">
-    <h3>Counselling</h3>
-    <p>I work with youth and adults, using person-centered and solution-focused approaches.</p>
-    <p><a href="/counselling/">Learn more →</a></p>
-  </div>
-  <div class="card">
-    <h3>Rates & Services</h3>
-    <p>Individual Counselling - $150 @ 50 minutes. Sliding scale available.</p>
-    <p><a href="/rates-services/">View rates →</a></p>
-  </div>
-  <div class="card">
-    <h3>Contact</h3>
-    <p>Free 15 minute consultation. Office in Brentwood Bay, BC.</p>
-    <p><a href="/contact/">Get in touch →</a></p>
-  </div>
-  ---
+I am dedicated to guiding young people through life's transitions and challenges with empathy and understanding. My mission is to create a supportive space where teens and young adults can explore their thoughts, feelings, and goals with a compassionate and skilled therapist. Whether you’re navigating the complexities of adolescence, dealing with stress or anxiety, or seeking to build resilience and self-confidence, I offer personalized therapy tailored to your unique needs.
 
-<img src="/images/IMG_1102.jpeg" alt="Logo" style="max-width: 200px; display: block; margin: 30px auto;">
-</div>
+Together, we can work towards a brighter, more balanced future. Reach out today to start a journey of growth and self-discovery.
 
+My trauma-informed, solution-focused therapy approach utilizes the client's story and strengths to determine solutions that may not have been realized yet. I believe the client is an expert of their life and has the knowledge of what works best for them. I am a Registered Clinical Counsellor through the BCACC and trained in supporting the mental health of all individuals. I offer counselling in Brentwood Bay, a community of Greater Victoria, BC.

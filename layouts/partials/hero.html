@@ -1,0 +1,8 @@
+{{/* Global forest banner everywhere unless page overrides explicitly (we won't). */}}
+{{ $img := "/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg" }}
+<section class="hero" style="background-image:url('{{ $img }}')">
+  <div class="hero__wrap">
+    <h1 class="hero__title">{{ .Title }}</h1>
+    {{ with .Params.bannerSubtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+  </div>
+</section>

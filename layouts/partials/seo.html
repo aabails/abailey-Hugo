@@ -1,0 +1,10 @@
+{{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
+<title>{{ $title }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="description" content='{{ with .Params.description }}{{ . }}{{ else }}Registered Clinical Counsellor in Brentwood Bay, BC. Youth & adult counselling. (778) 557-5504.{{ end }}'>
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content='{{ with .Params.description }}{{ . }}{{ else }}Counselling in Brentwood Bay.{{ end }}'>
+<meta property="og:type" content='{{ if .IsHome }}website{{ else }}article{{ end }}'>
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg">
+<meta name="robots" content="index,follow">

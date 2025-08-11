@@ -1,0 +1,12 @@
+<header class="site-header">
+  <a class="brand" href="{{ "/" | relURL }}">
+    <img src="/images/IMG_1102.jpeg" alt="{{ .Site.Title }} logo" class="brand__logo">
+    <span class="brand__text">{{ .Site.Title }}</span>
+  </a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰</button>
+  <div class="backdrop" hidden></div>
+  <nav id="nav" class="nav" hidden aria-label="Main">
+    <button class="nav__close" aria-label="Close Menu">✕</button>
+    {{ range site.Menus.main }}<a href="{{ .URL }}" class="nav__link">{{ .Name }}</a>{{ end }}
+  </nav>
+</header>
