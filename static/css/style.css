@@ -208,19 +208,14 @@ button:hover{filter:brightness(.98)}
   .nav__close{display:none}
   .nav .nav__link{opacity:1;transform:none;transition:none}
 }
-.hero__title,
-.hero__subtitle,
-.hero__description {
+.banner .overlay {
   text-align: center;
-  color: #ffffff;
 }
-.banner-text, 
-.hero-text, 
-.banner h1, 
-.banner h2, 
-.banner p {
-  color: #ffffff;
-  text-align: center;
+
+.banner .overlay h1,
+.banner .overlay h2,
+.banner .overlay p {
+  color: #ffffff !important;
 }
 
 
