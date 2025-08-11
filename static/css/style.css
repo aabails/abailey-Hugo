@@ -208,49 +208,34 @@ button:hover{filter:brightness(.98)}
   .nav__close{display:none}
   .nav .nav__link{opacity:1;transform:none;transition:none}
 }
-.banner .overlay {
-  text-align: center;
+/* Force white, centered text in all hero banners */
+.hero__wrap {
+  text-align: center !important;
 }
 
-.banner .overlay h1,
-.banner .overlay h2,
-.banner .overlay p {
+.hero__title,
+.hero__subtitle {
   color: #ffffff !important;
 }
-/* Global Banner Styles */
-.banner {
+
+/* Optional: dark overlay for better readability */
+.hero {
   position: relative;
-  height: 400px; /* adjust for taller/shorter banners */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-/* Dark overlay for text readability */
-.banner::before {
+.hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4); /* adjust darkness */
   z-index: 1;
 }
 
-/* Overlay content */
-.banner .overlay {
+.hero__wrap {
   position: relative;
   z-index: 2;
-  text-align: center;
 }
 
-/* White centered text */
-.banner .overlay h1,
-.banner .overlay h2,
-.banner .overlay p {
-  color: #ffffff !important;
-  margin: 0;
-}
 
 
 
