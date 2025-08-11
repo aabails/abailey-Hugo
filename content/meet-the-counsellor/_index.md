@@ -1,5 +1,5 @@
 ---
-title: "Meet the Counsellor"
+title: "Meet Aaron"
 description: "About Aaron Bailey, MEd, RCC."
 ---
 Aaron is a trauma‑informed and solution‑focused therapist doing work with youth and adults to support them in taking control over any aspect of their lives and developing a deeper understanding of how to reach their fullest potential. Aaron loves working with people and has been working in an educational setting with children and teens for over 10 years. His approach to counselling involves fostering trusting relationships through a calm and genuine approach.
@@ -11,6 +11,10 @@ Aaron was born and raised in Victoria and spends much of his time outdoors, bein
 Aaron has experience working with people of all ages, but specifically youth ages 10 to 18 with anxiety, ADHD, OCD, identity exploration, family changes, grief and loss, educational concerns, substance use, and sense of purpose, among many other topics.
 
 Youth are frequently willing and open to making changes in their lives when they feel supported and are in a safe space. They are often open to exploring who they are and what is important to them, as well as how they see themselves in the future.
+
+## The Space 
+
+My counselling space is thoughtfully designed to foster comfort and openness. It is located as a separate building on my property in Brentwood Bay, BC. This space is dedicated to creating a safe and confidential environment where you can feel at ease. With a small yet thoughtfully arranged setup, it is intended to support a therapeutic atmosphere—one where you can explore your thoughts and feelings without distraction.
 
 <div class="figure">
   <img src="/images/IMG_1867.jpeg" alt="Counselling office photo 1">
