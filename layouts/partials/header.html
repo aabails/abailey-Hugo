@@ -4,15 +4,15 @@
     <span class="brand__text">{{ .Site.Title }}</span>
   </a>
 
-  <!-- Pure-CSS toggle -->
-  <input id="menu-toggle" type="checkbox" hidden>
+  <!-- Keep the input in the DOM (not display:none) -->
+  <input id="menu-toggle" type="checkbox" class="vh" aria-hidden="true">
   <label for="menu-toggle" class="hamburger" aria-label="Menu" aria-controls="nav">☰</label>
 
-  <!-- Backdrop is a label so tapping it closes the drawer -->
+  <!-- Backdrop is a label so tapping it closes -->
   <label for="menu-toggle" class="backdrop" aria-hidden="true"></label>
 
   <nav id="nav" class="nav" aria-label="Main">
-    <!-- Close label toggles checkbox off -->
+    <!-- Close is also a label -->
     <label for="menu-toggle" class="nav__close" aria-label="Close Menu">✕</label>
     {{ range site.Menus.main }}
       <a href="{{ .URL }}" class="nav__link">{{ .Name }}</a>
