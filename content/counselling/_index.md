@@ -22,6 +22,4 @@ In my experience youth are extremely resilient and aware of their situation, som
 - Family connections, grief and loss, social situations
 - Substance use
 
-## The Space 
 
-My counselling space is thoughtfully designed to foster comfort and openness. It is located as a separate building on my property in Brentwood Bay, BC. This space is dedicated to creating a safe and confidential environment where you can feel at ease. With a small yet thoughtfully arranged setup, it is intended to support a therapeutic atmosphere—one where you can explore your thoughts and feelings without distraction.
