@@ -217,6 +217,42 @@ button:hover{filter:brightness(.98)}
 .banner .overlay p {
   color: #ffffff !important;
 }
+/* Global Banner Styles */
+.banner {
+  position: relative;
+  height: 400px; /* adjust for taller/shorter banners */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark overlay for text readability */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* Overlay content */
+.banner .overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* White centered text */
+.banner .overlay h1,
+.banner .overlay h2,
+.banner .overlay p {
+  color: #ffffff !important;
+  margin: 0;
+}
+
+
 
 
 
