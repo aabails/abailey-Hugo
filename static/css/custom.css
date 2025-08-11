@@ -1,0 +1,15 @@
+/* Center and make hero/banner text white site-wide */
+.hero__title,
+.hero__subtitle,
+.hero__description,
+.hero h1,
+.hero h2 {
+  color: #ffffff !important;
+  text-align: center;
+}
+
+/* If the title is a link anywhere */
+.hero__title a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
