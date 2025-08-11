@@ -1,8 +1,8 @@
++++
+title = "Resources"
+description = "Helpful mental health resources for youth, adults, and families."
++++
 
-+++
-title: "Resources"
-description: "Local services, reading, and activities for youth and families in Greater Victoria."
-+++
 ### Local Resources:
 
 [Confident Parents: Thriving Kids – Anxiety](https://welcome.cmhacptk.ca) — a free program helping BC families overcome anxiety challenges in children ages 3–12. Web and phone‑based coaching for parents and caregivers; available by referral from the school.
