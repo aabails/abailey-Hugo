@@ -2,6 +2,8 @@
 title: "Aaron Bailey Counselling | Counsellor, Victoria, BC"
 description: "Counsellor | Victoria, BC — Registered Clinical Counsellor in Brentwood Bay, supporting youth & adults."
 ---
+<p><a class="button" href="/contact/">Reach out  to me</a></p>
+
 ## Counsellor | Victoria, BC
 
 Are you looking to make a change in your life or connect a young person with a youth counsellor in Victoria, BC?
