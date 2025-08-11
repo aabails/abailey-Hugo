@@ -1,10 +1,10 @@
 
----
++++
 title: "Contact"
 bannerTitle: "Contact"
 bannerImage: "/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg"
 description: "Book a free consultation or appointment."
----
++++
 Please reach out:
 
 - **Email:** [abaileycounselling@gmail.com](mailto:abaileycounselling@gmail.com)  
