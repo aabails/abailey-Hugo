@@ -1,3 +1,10 @@
++++
+title = "Contact"
+[menu]
+  [menu.main]
+    name = "Contact"
+    weight = 5
++++
 --
 title: "Contact"
 bannerTitle: "Contact"
