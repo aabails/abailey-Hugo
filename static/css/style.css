@@ -208,11 +208,9 @@ button:hover{filter:brightness(.98)}
   .nav__close{display:none}
   .nav .nav__link{opacity:1;transform:none;transition:none}
 }
-/* Center and white text for all page banners */
-.banner-title,
-.banner-subtitle,
-.page-header h1,
-.page-header h2 {
+.hero__title,
+.hero__subtitle,
+.hero__description {
   text-align: center;
   color: #ffffff;
 }
