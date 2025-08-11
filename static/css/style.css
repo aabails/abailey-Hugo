@@ -214,4 +214,14 @@ button:hover{filter:brightness(.98)}
   text-align: center;
   color: #ffffff;
 }
+.banner-text, 
+.hero-text, 
+.banner h1, 
+.banner h2, 
+.banner p {
+  color: #ffffff;
+  text-align: center;
+}
+
+
 
