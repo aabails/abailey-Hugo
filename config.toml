@@ -1,11 +1,34 @@
-baseURL = "https://abaileycounselling.netlify.app/"
-canonifyURLs = true
-enableRobotsTXT = true
-title = "Bailey’s Counselling"
+baseURL = "/"
+languageCode = "en-us"
+title = "Bailey Counselling"
+theme = "ananke"
 
-[menu]
-  [[menu.main]] name = "Counselling" url = "/counselling/" weight = 10
-  [[menu.main]] name = "Rates & Services" url = "/rates-services/" weight = 20
-  [[menu.main]] name = "Resources" url = "/resources/" weight = 30
-  [[menu.main]] name = "Meet the Counsellor" url = "/meet-the-counsellor/" weight = 40
-  [[menu.main]] name = "Contact" url = "/contact/" weight = 50
+[params]
+  banner = "/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg"
+  logo = "/images/IMG_1102.jpeg"
+  footer_logo = "/images/IMG_3334.jpeg"
+
+[[menu.main]]
+name = "Counselling"
+url = "/counselling/"
+weight = 10
+
+[[menu.main]]
+name = "Rates & Services"
+url = "/rates-services/"
+weight = 20
+
+[[menu.main]]
+name = "Resources"
+url = "/resources/"
+weight = 30
+
+[[menu.main]]
+name = "Meet the Counsellor"
+url = "/meet-the-counsellor/"
+weight = 40
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 50
