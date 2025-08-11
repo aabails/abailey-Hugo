@@ -13,3 +13,24 @@
   color: #ffffff !important;
   text-decoration: none;
 }
+ section.hero div.hero__wrap h1.hero__title,
+section.hero div.hero__wrap p.hero__subtitle {
+  color: #ffffff !important;
+}
+.hero__wrap {
+  position: relative;
+  z-index: 2;
+  text-align: center !important;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: 1;
+}
