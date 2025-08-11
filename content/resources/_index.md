@@ -1,3 +1,10 @@
++++
+title = "Resources"
+[menu]
+  [menu.main]
+    name = "Resources"
+    weight = 4
++++
 ---
 title: "Resources"
 description: "Local services, reading, and activities for youth and families in Greater Victoria."
