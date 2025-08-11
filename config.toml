@@ -11,29 +11,32 @@ paginate = 10
   images = ["/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg"]
 
 [menu]
+
   [[menu.main]]
-    identifier = "home"
     name = "Home"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
-    name = "Meet the Counsellor"
-    url = "/meet-the-counsellor/"
+    name = "About Me"
+    url = "/about-me/"
     weight = 2
 
   [[menu.main]]
-    identifier = "rates"
     name = "Rates & Services"
     url = "/rates-services/"
     weight = 3
 
   [[menu.main]]
-    identifier = "contact"
+    name = "Resources"
+    url = "/resources/"
+    weight = 4
+
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
