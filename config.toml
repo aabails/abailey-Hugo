@@ -1,34 +1,47 @@
-baseURL = "/"
+baseURL = "https://abaileycounselling.netlify.app/"
 languageCode = "en-us"
-title = "Bailey Counselling"
-theme = "ananke"
+title = "A. Bailey Counselling"
+# theme = "ananke"  # Removed so Hugo doesn’t try to load a missing theme
+paginate = 10
 
 [params]
-  banner = "/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg"
-  logo = "/images/IMG_1102.jpeg"
-  footer_logo = "/images/IMG_3334.jpeg"
+  description = "Counselling services for youth and adults in Brentwood Bay, BC. Safe, supportive, and professional therapy."
+  author = "Aaron Bailey"
+  keywords = ["counselling", "therapy", "youth counselling", "adult counselling", "Brentwood Bay", "mental health"]
+  images = ["/images/94DA57C0-F819-4782-AB29-073C214057AF.jpeg"]
 
-[[menu.main]]
-name = "Counselling"
-url = "/counselling/"
-weight = 10
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
 
-[[menu.main]]
-name = "Rates & Services"
-url = "/rates-services/"
-weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "Meet the Counsellor"
+    url = "/meet-the-counsellor/"
+    weight = 2
 
-[[menu.main]]
-name = "Resources"
-url = "/resources/"
-weight = 30
+  [[menu.main]]
+    identifier = "rates"
+    name = "Rates & Services"
+    url = "/rates-services/"
+    weight = 3
 
-[[menu.main]]
-name = "Meet the Counsellor"
-url = "/meet-the-counsellor/"
-weight = 40
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
-[[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 50
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[permalinks]
+  page = "/:slug/"
