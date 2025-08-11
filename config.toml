@@ -19,7 +19,7 @@ paginate = 10
 
   [[menu.main]]
     name = "About Me"
-    url = "/about-me/"
+    url = "/meet-the-counsellor/"
     weight = 2
 
   [[menu.main]]
